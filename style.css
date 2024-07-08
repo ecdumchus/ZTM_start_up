@@ -50,3 +50,7 @@ hr {
 .btn-xl{
   padding: 1rem 1rem;
 }
+
+.animate__animated.animate__zoomInDown {
+  --animate-duration: 2.5s;
+}
