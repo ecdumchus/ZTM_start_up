@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(images/Alfie.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 5.5rem;
+  color: #fcf806
+  
+}
+
+hr {
+  margin: 20px auto;
+  color: #fcf806;
+  border: 3px solid #fcf806;
+  max-width: 175px;
+  opacity: 1;  
+}
+
+.buffer{
+  height: 2rem;
+}
+
+.btn{
+  font-weight: 850;
+  border-radius: 300px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.btn-primary{
+  background-color: #fcf806;
+  border-color: #fcf806;
+}
+
+.btn-primary:hover {
+  background-color: #dfe22e;
+  border-color: #dfe22e;
+  border-width: 4px;
+  color: rgb(107, 16, 255);
+}
+
+.btn-xl{
+  padding: 1rem 1rem;
+}
